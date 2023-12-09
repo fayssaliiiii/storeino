@@ -1,0 +1,792 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFFICE</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">FAICAL'S STORE</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://fayssaliiiii.github.io/Checkit/" class="list-link">shop</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact Us</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">LOGIN</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>REGISTER</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Best Sellers</span>
+                    </h3>
+                    <span class="headline-description">OUR ALL-TIME BEST SELLERS LOVED BY MANY CUSTOMERS AND OUR STAFF
+                        ...</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="/yan.jpg" alt="" class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">ADOBE</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-2">
+                    <img src="./assets/images/featured/featured-2.jpg" alt="" class="article-image">
+                    <span class="article-category">AMAZON</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 6th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>4 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">AMAZON / EBAY ACCOUNTS</h3>
+
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-3">
+                    <img src="./assets/images/featured/featured-3.jpg" alt="" class="article-image">
+                    <span class="article-category">Canvas</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 5th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>5 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">CANVAS</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">You May Also Like</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/trending_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">kaspersky</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/trending_2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">ESET NOD32 ANTIVIRUS 2022</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>23 </span>
+                            <span class="article-data-spacer"></span>
+                            <span>$45</span>
+                        </div>
+
+                        <h3 class="title article-title">ESET</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trending_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>24</span>
+                            <span class="article-data-spacer"></span>
+                            <span>$39</span>
+                        </div>
+
+                        <h3 class="title article-title">mcafee-total-protection-1</h3>
+
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/trending_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>25</span>
+                            <span class="article-data-spacer"></span>
+                            <span>$39</span>
+                        </div>
+
+                        <h3 class="title article-title">AVATAS PREMIUM</h3>
+
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Quick read -->
+    <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="All Products">All Products</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_1.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>Sold Out !</span>
+                            </div>
+                            <h3 class="title article-title">avg-pc-tuneup</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_2.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>Sold Out !</span>
+                            </div>
+                            <h3 class="title article-title">avast-premium-security</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_3.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>Sold Out !</span>
+                            </div>
+                            <h3 class="title article-title">protection-1-device</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_4.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>Sold Out !</span>
+                            </div>
+                            <h3 class="title article-title">ESET</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>a
+                            available</span>
+                            </div>
+                            <h3 class="title article-title">MCAFEE</h3>
+                        </div>
+                    </a>
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/quick_read/quick_read_6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>23 Dec 2021</span>
+                                <span class="article-data-spacer"></span>
+                                <span>SOLD OUT !</span>
+                            </div>
+                            <h3 class="title article-title">AVAST</h3>
+                        </div>
+                    </a>
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Mircosoft Office">Mircosoft Office</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">office-2019-professional-plus-activation-key-pc-phone-activation-key(pc) article title</h3>
+                        <p class="article-description">Elevate your work environment with the Office 2019 Professional Plus Activation Key, a gateway to a suite of cutting-edge productivity tools. This key unlocks a world of possibilities, granting you access to the full spectrum of applications such as Word, Excel, PowerPoint, and Outlook. Seamlessly integrated for both PC and phone use, this activation key ensures a smooth transition between devices, allowing you to create, collaborate, and communicate with efficiency. Empower your projects, presentations, and data management with advanced features, all backed by the security and authenticity of a genuine Office 2019 Professional Plus activation key. Step into a new era of productivity and innovation.
+
+
+
+
+
+                            .</p>
+
+                    </div>
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>29 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">office-2019-professional-plus-activation-key-pc-phone-activation-key(pc)</h3>
+                        <p class="article-description">
+                            Ignite your professional endeavors with the Office 2019 Professional Plus Activation Key – the key to unlocking a world of unparalleled productivity. Seamlessly merging classic applications like Word, Excel, PowerPoint, and Outlook, this activation key transforms your digital workspace into a hub of efficiency. Enjoy the flexibility of cross-platform functionality, effortlessly switching between PC and phone, while unleashing the advanced features tailored for enhanced document creation, data analysis, and communication. Elevate your work experience with the authenticity and security guaranteed by a genuine Office 2019 Professional Plus activation key. Unleash your full potential and redefine your approach to productivity.</p>
+
+                    </div>
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>3 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">office-2019-professional-plus-activation-key-pc-phone-activation-key(pc)</h3>
+                        <p class="article-description">Embark on a journey of productivity excellence with the Office 2019 Professional Plus Activation Key. This key opens the door to a suite of powerful applications, including Word, Excel, PowerPoint, and Outlook, meticulously designed to elevate your professional and personal projects. Seamlessly transition between your PC and phone, enjoying a cohesive experience that empowers your document creation, data analysis, and communication. The activation key ensures the authenticity and security of your Office 2019 Professional Plus, unlocking a world where innovation meets efficiency. Step into a realm of limitless possibilities and redefine the way you work.
+
+                            .</p>
+
+                    </div>
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">office-2019-professional-plus-activation-key-pc-phone-activation-key(pc)</h3>
+                        <p class="article-description">Step into the future of productivity with the Office 2019 Professional Plus Activation Key. This key is your passport to a world of cutting-edge applications, featuring Word, Excel, PowerPoint, and Outlook, meticulously crafted to enhance your professional toolkit. Seamlessly switch between your PC and phone, experiencing a fluid workflow that amplifies document creation, data analysis, and communication. The activation key guarantees the authenticity of your Office 2019 Professional Plus, unlocking a realm where innovation converges with efficiency. Embrace a new era of work dynamics, where every keystroke propels you towards unmatched productivity..</p>
+
+                    </div>
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">office-2019-professional-plus-activation-key-pc-phone-activation-key(pc)</h3>
+                        <p class="article-description">Unlock the full potential of your digital workspace with Office 2019 Professional Plus Activation Key, a comprehensive solution for all your productivity needs. This key provides access to a suite of powerful applications, including Word, Excel, PowerPoint, and Outlook, delivering unparalleled functionality for both personal and professional tasks. Seamlessly transition between PC and phone, enjoying enhanced features that elevate your document creation, data analysis, presentation design, and communication experiences. Elevate your work efficiency with a genuine activation key, ensuring a secure and authorized access to the extensive capabilities of Office 2019 Professional Plus..</p>
+
+                    </div>
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>23 Dec 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Available</span>
+                        </div>
+
+                        <h3 class="title article-title">office-2019-professional-plus-activation-key-pc-phone-activation-key(pc)</h3>
+                        <p class="article-description">Office 2019 Professional Plus is a robust suite of productivity tools designed to meet the diverse needs of businesses and individuals. Packed with advanced features, this version includes classic applications such as Word, Excel, PowerPoint, and Outlook, along with enhanced functionalities for improved efficiency and collaboration. The activation key ensures access to the full range of capabilities, allowing users to create, edit, and share documents, spreadsheets, presentations, and emails seamlessly across PC and phone platforms. This version represents a powerful solution for users seeking a comprehensive and feature-rich office suite for professional and personal use.
+                            .</p>
+
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Operating System">Operating System</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                    <span class="tag-name">#Adobe</span>
+                    <img src="./assets/images/tags/travel-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                    <span class="tag-name">#Canva</span>
+                    <img src="./assets/images/tags/food-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                    <span class="tag-name">#eBay</span>
+                    <img src="./assets/images/tags/technology-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                    <span class="tag-name">#Amazon</span>
+                    <img src="./assets/images/tags/health-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                    <span class="tag-name">#Netflix</span>
+                    <img src="./assets/images/tags/nature-tag.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="https://fayssaliiiii.github.io/Checkit/ " class="article">
+                    <span class="tag-name">#servers</span>
+                    <img src="./assets/images/tags/fitness-tag.jpg" alt="" class="article-image">
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+        <!-- Popular tags -->
+        <section class="popular-tags section">
+
+            <div class="container">
+                <h1 data-name="Operating System">Download your software in seconds</h1>
+                <p>Good Keys For You has made the process of software download as easy as 1-2-3</p>
+    
+    
+                <div class="popular-tags-container d-grid">
+    
+                    <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                        <span class="tag-name">#Adobe</span>
+                        <img src="/3-3-1.png" alt="" class="article-image">
+                        <p>Add a product to the shopping cart
+                            Use the quick browsing function to search for the software you need. Make your selection and add to your cart.</p>
+                    </a>
+    
+                    <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                        <span class="tag-name">#Canva</span>
+                        <img src="/2-1.png" alt="" class="article-image">
+                        <p>Apply promocode at checkout
+                            For extra savings, remember to check the homepage for any discount codes — Often, special promotions are running.</p>
+                    </a>
+    
+                    <a href="https://fayssaliiiii.github.io/Checkit/" class="article">
+                        <span class="tag-name">#eBay</span>
+                        <img src="/1-1-1.png" alt="" class="article-image">
+                        <p>Receive activation key & download link in mailbox
+                            No frustrating shipping delays. Instead, get a download link in your mailbox. Install and start using your product right away.</p>
+                    </a>
+    
+                </div>
+    
+            </div>
+        </section>
+      
+
+    <section class="popular-tags section">
+        <div class="container" style="margin: 50px;     position: relative;
+        /* font-size: 10px; */
+        margin-bottom: 6rem;">
+            <div class="title-subtitle subtitle-color-primary subtitle-style-default wd-fontsize-xs">
+            All Good Keys Mission </div>
+            <div class="liner-continer">
+            <h4 class="woodmart-title-container title wd-fontsize-l">Why Choose Us</h4>
+            </div>
+            <div class="title-after_title set-cont-mb-s reset-last-child wd-fontsize-xs">
+            <p><strong>Good Keys For You</strong> - aims to simplify the software licensing process and provide customers of all needs, businesses and individuals a like., 
+                <br> a comprehensive collection of software from major manufacturers, In our software shop, you can order general PC/MAC software, antivirus programs, 
+                 <br> Microsoft Office and servers with the corresponding license at excellent and affordable prices.</p><p>We also know our products inside out as we are highly experienced technicians who can solve any software related issue in a quick timely manner simply contact our friendly technical support team anytime via chat or email.</p> </div>
+            </div>
+    </section>
+
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe to GOOD KEYS FOR YOU</h6>
+                <p class="newsletter-description">Subscribe to GOOD KEYS FOR YOU and unlock a realm of exclusive deals and digital wonders. Be the first to access new releases, special promotions, and insider insights. Elevate your digital experience by joining our community of savvy subscribers. Stay ahead with GOOD KEYS FOR YOU – where every key unlocks a world of possibilities!
+
+
+
+
+
+                    .</p>
+
+                    <form id="subscribe-form">
+                        <label for="email">Subscribe to GOOD KEYS FOR YOU</label>
+                        <input id="email" class="form-input" type="text" placeholder="Enter your email address">
+                        <button class="btn form-btn" style="margin: 5px;" type="button" onclick="subscribe()">Subscribe</button>
+                        <div id="message"></div>
+                    </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">GOOD KEYS FOR YOU</h2>
+                </a>
+                <p class="company-description">We are the best way to buy, install and use software! With All Good Keys Software you won't just get an installation package and a wish of good luck! No, 
+                    with us you will be sure that the license is legitimate and that the software will work to your liking. We don't stop until you are completely satisfied!.</p>
+                
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="https://fayssaliiiii.github.io/Checkit/" class="list-link"><i class="ri-instagram-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://fayssaliiiii.github.io/Checkit/" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://fayssaliiiii.github.io/Checkit/" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://fayssaliiiii.github.io/Checkit/" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2021 GOOD KEYS FOR YOU. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">
+                    BROWSE CATEGORIES</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">ALL PRODUCTS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">MICROSOFT OFFICE</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">OFFICE PRODUCTS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">OPERATING SYSTEM</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">WINDOWS SERVERS</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">ANTIVIRUS & SECURITY</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">BUNDLES</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Privacy Policy</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Terms & Conditions</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Delivery & Payment</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Refund & Returns Policy</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Careers</a>
+                    </li>
+                    <!-- <li class="list-item">
+                        <a href="#" class="list-link">Authors</a>
+                    </li> -->
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships (Microsoft)</a>
+                    </li>
+                </ul>
+
+            </div>
+
+             <!-- New Line for Secure Payment -->
+        <div class="secure-payment">
+            <p class="secure-payment-text">Secure payment with</p>
+            <div class="payment-icons" style="display: flex;   ">
+                <img  style="width: 100px;" src="/paypal-icon-1.png.webp" alt="PayPal">
+                <img style="width: 100px;" src="/stripe-icon-1.png.webp" alt="Stripe">
+                <!-- <img style="width: 100px;" src="/crypto.jpg" alt="Crypto"> -->
+
+            </div>
+        </div>
+        </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script>
+        function subscribe() {
+            var emailInput = document.getElementById('email');
+            var messageContainer = document.getElementById('message');
+    
+            if (emailInput.value.trim() === '') {
+                messageContainer.textContent = 'Fill the input, please.';
+                messageContainer.style.backgroundColor = '#FF0000'; // Red color for error
+            } else {
+                messageContainer.textContent = 'Thank you for subscribing!';
+                messageContainer.style.backgroundColor = '#4CAF50'; // Green color for success
+            }
+    
+            messageContainer.style.display = 'block';
+    
+            setTimeout(function() {
+                messageContainer.style.display = 'none';
+            }, 5000); // Hide message after 5000 milliseconds (5 seconds)
+    
+            // Optional: You can clear the input field after displaying the message
+            // emailInput.value = '';
+        }
+    </script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
